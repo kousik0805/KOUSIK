@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elegant South Indian Wedding Invitation</title>
+  <title>Wedding Invitation of Kavin & Sudanti</title>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@400;700&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
   <style>
     /* General Reset */
@@ -11,15 +11,14 @@
       margin: 0;
       padding: 0;
       font-family: 'Playfair Display', serif;
-      background-color: #fff9e6;
-      color: #4a2d27;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                  url('https://raw.githubusercontent.com/kousik0805/KavinWedsAbi/refs/heads/main/kavin2.jpeg') no-repeat center center/cover;
+      color: #134c85;
       overflow-x: hidden;
     }
 
     /* Header Section */
     header {
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                  url('KOUSIK/2img.jpeg') no-repeat center center/cover;
       height: 80vh;
       display: flex;
       flex-direction: column;
@@ -30,21 +29,32 @@
       animation: zoomIn 1.5s ease-in-out;
     }
 
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
     header h1 {
       font-family: 'Dancing Script', cursive;
-      font-size: 4.5em;
+      font-size: 3em;
       margin: 0;
       animation: fadeIn 2s ease-in-out;
     }
 
     header h2 {
-      font-size: 2.5em;
+      font-size: 1.8em;
       margin: 15px 0;
       animation: fadeIn 3s ease-in-out;
     }
 
     header p {
-      font-size: 1.5em;
+      font-size: 1.2em;
       animation: fadeIn 4s ease-in-out;
     }
 
@@ -60,12 +70,12 @@
     /* Decorative Borders */
     .border {
       text-align: center;
-      margin: 30px 0;
+      margin: 20px 0;
     }
 
     .border img {
       width: 90%;
-      max-width: 900px;
+      max-width: 600px;
       animation: slideIn 2s ease-in-out;
     }
 
@@ -82,38 +92,27 @@
 
     /* Invitation Section */
     #invitation {
-      padding: 40px;
+      padding: 20px;
       text-align: center;
       background: linear-gradient(135deg, #ffd89b, #19547b);
       color: #fff;
       border-radius: 15px;
-      margin: 30px auto;
-      width: 85%;
-      max-width: 800px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 600px;
       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
       animation: zoomIn 1.5s ease-in-out;
     }
 
-    @keyframes zoomIn {
-      from {
-        transform: scale(0.5);
-        opacity: 0;
-      }
-      to {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
-
     #invitation h3 {
       font-family: 'Dancing Script', cursive;
-      font-size: 3em;
-      margin-bottom: 20px;
+      font-size: 2em;
+      margin-bottom: 10px;
     }
 
     #invitation p {
-      font-size: 1.4em;
-      line-height: 1.8;
+      font-size: 1em;
+      line-height: 1.5;
       margin-bottom: 10px;
     }
 
@@ -123,35 +122,35 @@
 
     /* Event Details Section */
     #schedule {
-      padding: 30px;
+      padding: 20px;
       text-align: center;
       background-color: #fff;
       border-radius: 15px;
       margin: 20px auto;
       width: 90%;
-      max-width: 900px;
+      max-width: 700px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
     #schedule h3 {
       font-family: 'Dancing Script', cursive;
-      font-size: 3em;
-      margin-bottom: 20px;
+      font-size: 2em;
+      margin-bottom: 15px;
       color: #b34141;
     }
 
     #schedule .event {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     #schedule .event h4 {
-      font-size: 1.8em;
+      font-size: 1.5em;
       color: #19547b;
       animation: fadeUp 1s ease-in-out;
     }
 
     #schedule .event p {
-      font-size: 1.3em;
+      font-size: 1em;
       margin: 5px 0;
     }
 
@@ -168,38 +167,38 @@
 
     /* Wishes Section */
     #wishes {
-      padding: 30px;
+      padding: 20px;
       text-align: center;
       background: linear-gradient(135deg, #f8f8f8, #ffe4e4);
       border-radius: 15px;
       margin: 20px auto;
-      width: 85%;
-      max-width: 800px;
+      width: 90%;
+      max-width: 600px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
     #wishes h3 {
       font-family: 'Dancing Script', cursive;
-      font-size: 3em;
-      margin-bottom: 20px;
+      font-size: 2em;
+      margin-bottom: 15px;
       color: #b34141;
     }
 
     #wishes p {
-      font-size: 1.3em;
+      font-size: 1em;
       margin: 10px 0;
     }
 
     /* Footer Section */
     footer {
       text-align: center;
-      padding: 20px;
+      padding: 10px;
       background-color: #19547b;
       color: white;
     }
 
     footer p {
-      font-size: 1.2em;
+      font-size: 1em;
       margin: 0;
     }
 
@@ -207,6 +206,42 @@
     #music {
       text-align: center;
       margin: 20px 0;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header {
+        height: 60vh;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+      }
+
+      header h2 {
+        font-size: 1.5em;
+      }
+
+      header p {
+        font-size: 1em;
+      }
+
+      .border img {
+        width: 95%;
+      }
+
+      #invitation, #schedule, #wishes {
+        padding: 15px;
+        width: 95%;
+      }
+
+      #invitation h3, #schedule h3, #wishes h3 {
+        font-size: 1.8em;
+      }
+
+      #invitation p, #schedule .event p, #wishes p {
+        font-size: 0.9em;
+      }
     }
   </style>
 </head>
@@ -216,12 +251,14 @@
   <header>
     <h1>Kavin & Sudanti</h1>
     <h2>A Celebration of Love</h2>
-    <p>March 08-09, 2024</p>
+    <p>March 08 2024</p>
+    <p>&</p>
+    <p>March 09 2024</p>
   </header>
 
   <!-- Decorative Divider -->
   <div class="border">
-    <img src="KOUSIK/1img.jpeg" alt="Decorative Border">
+    <img src="https://raw.githubusercontent.com/kousik0805/KavinWedsAbi/refs/heads/main/kavin.jpeg" alt="Decorative Border">
   </div>
 
   <!-- Invitation Section -->
